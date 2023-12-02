@@ -1,10 +1,12 @@
 import './App.css';
-import Projects from './modules/projects/Projects';
+import Navbar from './components/navbar/Navbar';
+
+// import Projects from './modules/projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-     <Projects/>
+    <div className="App bg-yellow-500">
+      <Navbar/>
     </div>
   );
 }
