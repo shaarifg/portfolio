@@ -1,5 +1,6 @@
 {
-    "projects":[{
+    "projects":[
+      {
         "id": 1,
         "title": "iPhone 9",
         "description": "An apple mobile which is nothing like apple",
@@ -17,5 +18,6 @@
           "https://i.dummyjson.com/data/products/1/4.jpg",
           "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
         ]
-      }]
+      }
+    ]
 }
