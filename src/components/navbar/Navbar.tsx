@@ -1,5 +1,7 @@
 import React from "react";
 import './navbar.css'
+import { NavbarData } from "./navbar.data";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex gap-3" id="landing">
@@ -8,21 +10,14 @@ const Navbar = () => {
         </div>
       <nav>
         <ul className="flex gap-3">
-          <li>
-            <a href="./">About</a>
-          </li>
-          <li>
-            <a href="./">Projects</a>
-          </li>
-          <li>
-            <a href="./">Experience</a>
-          </li>
-          <li>
-            <a href="./">Blogs</a>
-          </li>
-          <li>
-            <a href="./">Let's Connect</a>
-          </li>
+          {
+            NavbarData.map((item)=>{
+              return(<li>
+                <Link to={item.path} key={item.path}>{item.name}</Link>
+              </li>)
+            })
+          }
+          
         </ul>
       </nav>
       <div>
