@@ -33,6 +33,10 @@ export default function Root() {
               </li>
               <li>
                 <a href={`/contacts/2`}>Your Friend</a>
+              </li><li>
+                <a href={`/contacts/2`}>Your Friend</a>
+              </li><li>
+                <a href={`/contacts/2`}>Your Friend</a>
               </li>
             </ul>
           </nav>
