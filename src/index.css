@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* styles.css */
+/* Common styles for both themes and layouts */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

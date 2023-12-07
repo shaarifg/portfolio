@@ -1,0 +1,7 @@
+/* layouts/boxed.css */
+/* Boxed layout styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

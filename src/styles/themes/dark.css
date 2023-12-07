@@ -1,0 +1,7 @@
+/* themes/dark.css */
+/* Dark theme colors */
+body {
+    --bg-color: #343a40;
+    --text-color: #f8f9fa;
+  }
+  
